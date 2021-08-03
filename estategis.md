@@ -20,6 +20,7 @@ print(master, university)
 print(len(master))
 print(master.split())
 ```
+
 **numeri**
 
 I numeri possono essere di vario tipo, i più comuni sono i numeri:  
@@ -94,7 +95,15 @@ print(master[citta])
 
 ### Cicli e condizioni
 
-**Ciclo for**
+**Ciclo for**  
+
+I cicli servono ad iterare delle operazioni in una sequenza. La sequenza può essere definita come lista, stringa, tupla o dizionario.  
+```
+citta = ['Padova', 'Lamon', 'Ispra', 'Sevilla']
+
+for i in citta:
+  print(i)
+```
 
 **If**
 
