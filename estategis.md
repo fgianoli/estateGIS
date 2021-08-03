@@ -14,9 +14,9 @@ print(master, university)
 
 *numeri*
 
-I numeri possono essere di vario tipo, i più comuni sono i numeri:
-*interi: integer  
-*decimali: float
+I numeri possono essere di vario tipo, i più comuni sono i numeri:  
+* interi: integer  
+* decimali: float
 
 ```
 pop_maschile = 170
