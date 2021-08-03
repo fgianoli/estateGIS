@@ -131,4 +131,29 @@ def my_function():
 
 Le funzioni sono comode perchè ci permettono di definire una serie di operazioni che possono essere richiamate e reiterate all'interno del codice senza doverle riscrivere ogni volta.  
 
-Per esempio andiamo a creare una funzione per convertire i gradi sessagesimali in gradi decimali
+Per esempio andiamo a creare una funzione per convertire i gradi sessagesimali in gradi decimali.  
+
+ 45°24'25.75"N  
+ 11°53'36.98"E  
+ 
+```
+latitude = (45, 24, 25.75)
+longitude = (11, 53, 36.98)
+
+def dms_to_decimal(degrees, minutes, seconds):
+    if degrees < 0:
+        result = degrees - minutes/60 - seconds/3600
+    else:
+        result = degrees + minutes/60 + seconds/3600
+    return result
+
+# Extract the degree, minute and seconds values from the tuple
+lat_deg, lat_min, lat_sec = latitude
+lon_deg, lon_min, lon_sec = longitude
+
+lat_decimal = dms_to_decimal(lat_deg, lat_min, lat_sec)
+lon_decimal = dms_to_decimal(lon_deg, lon_min, lon_sec)
+print(lat_decimal, lon_decimal)
+```
+
+
