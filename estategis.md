@@ -41,7 +41,8 @@ densita = (pop_maschile+pop_femminile)/area
 print(densita)
 ```
 
-**liste**
+**liste**  
+
 Le liste sono degli oggetti che contengono degli elementi, a differenza delle tuple, si possono aggiornare e modificare. in Python le liste si scrivono tra parentesi quadre []. le Liste possono contenere elementi diversi come numeri, stringhe, anche duplicati, o contenere altre liste etc.  
 
 
@@ -107,6 +108,27 @@ for i in citta:
 
 **If**
 
+```
+citta = ['Padova', 'Lamon', 'Ispra', 'Sevilla']
+
+for i in citta:
+  if i=='Torino':
+    print(i)
+  else:
+    print('Mi dispiace niente Torino')
+```
+
 
 ### Funzioni
 
+Una funzione è un blocco di codice che riceve uno o più input, li processa e restrituisce un output. In Python una funzione si definisce con la keyword def.  
+```
+def my_function():
+    ....
+    ....
+    return something
+```
+
+Le funzioni sono comode perchè ci permettono di definire una serie di operazioni che possono essere richiamate e reiterate all'interno del codice senza doverle riscrivere ogni volta.  
+
+Per esempio andiamo a creare una funzione per convertire i gradi sessagesimali in gradi decimali
