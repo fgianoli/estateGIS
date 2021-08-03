@@ -4,7 +4,9 @@ Incontro EstateGIS Master GIScience
 
 ## Pillole di Python
 
-*stringhe*
+### Tipi di dati
+
+**stringhe**
 
 ```
 master = 'Master GIScience'
@@ -12,7 +14,13 @@ university = 'UNIPD'
 print(master, university)
 ```
 
-*numeri*
+*operazioni con le stringhe*  
+
+```
+print(len(master))
+print(master.split())
+```
+**numeri**
 
 I numeri possono essere di vario tipo, i più comuni sono i numeri:  
 * interi: integer  
@@ -31,4 +39,22 @@ densita = (pop_maschile+pop_femminile)/area
 
 print(densita)
 ```
+
+**liste**
+
+```
+```
+
+**tuple**
+
+**dizionario**
+
+### Cicli e condizioni
+
+**Ciclo for**
+
+**If**
+
+
+### Funzioni
 
