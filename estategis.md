@@ -2,7 +2,7 @@
 Incontro EstateGIS Master GIScience
 
 
-## Pillole di PyQGIS
+## Pillole di Python
 
 *stringhe*
 
