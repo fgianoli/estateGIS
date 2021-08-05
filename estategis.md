@@ -2,7 +2,7 @@
 Incontro EstateGIS Master GIScience
 
 
-## Pillole di Python,
+## Pillole di Python
 Brevissima guida, ispirata da spatialthoughts.com
 
 ### Tipi di dati
