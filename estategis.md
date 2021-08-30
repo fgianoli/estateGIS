@@ -110,13 +110,13 @@ for i in citta:
 **If**
 
 ```
-citta = ['Padova', 'Lamon', 'Ispra', 'Sevilla']
+citta = ['Padova', 'Lamon', 'Ispra', 'Sevilla', 'Torino']
 
 for i in citta:
   if i=='Torino':
-    print(i)
+    print('Sono Torino')
   else:
-    print('Mi dispiace niente Torino')
+    print('Mi dispiace non sono Torino')
 ```
 
 
