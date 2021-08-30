@@ -91,7 +91,7 @@ Un dizionario è un oggetto che ha chiavi e valori, si scrive tra parentesi graf
 
 ```
 master = {'citta': 'Padova', 'indirizzi':7, 'coordinate':(45.4072378, 11.8933948)}
-print(master[citta])
+print(master['citta'])
 ```
 
 
